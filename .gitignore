@@ -1,0 +1,6 @@
+**/target/*
+**/.idea/*
+*.iml
+.gitignore
+**/app/bin/*
+**/node_modules/*
