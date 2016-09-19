@@ -22,10 +22,8 @@ public class Wrapper implements Runnable {
         while(nodeJS.isRunning()) {
             nodeJS.handleMessage();
         }
-    }
-
-    public void release() {
-        System.out.println("Realeasing");
         nodeJS.release();
     }
+
+
 }
